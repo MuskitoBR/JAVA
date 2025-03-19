@@ -7,6 +7,7 @@ ________________________________________________________________________________
 
  ## Principais Conceitos da POO em Java <br>
 <br>
+
  1. **Classe** - Modelo ou estrutura para criar objetos.<br>
  2. **Objeto** - Instância de uma classe.<br>
  3. **Encapsulamento** - Proteção dos atributos e métodos de uma classe.<br>

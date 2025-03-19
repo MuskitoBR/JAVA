@@ -20,8 +20,8 @@ torno de **objetos**, que representam entidades do mundo real. No Java, POO é u
 Aqui está um exemplo simples de uma classe em Java que segue os princípios da POO:<br>
 
 ```
-
       // Definição da classe
+
       class Carro {
           // Atributos
           private String modelo;

@@ -61,3 +61,72 @@ Aqui está um exemplo simples de uma classe em Java que segue os princípios da 
  3. Criamos um método para exibir os detalhes do carro.<br>
  4. No método main, instanciamos um objeto Carro e chamamos o método mostrarDetalhes().<br>
  <br>
+
+
+# Classes
+ Uma classe em Java é um modelo (ou molde) para criar objetos. Ela define 
+ atributos (características) e métodos (comportamentos) que os objetos criados a partir dela terão.<br>
+
+  ## Estrutura de uma Classe
+  * Uma classe em Java segue essa estrutura básica:
+```
+// definição da class
+public class NomeDaClasse {
+    // Atributos (variáveis de instância)
+    tipo nomeAtributo;
+
+    // Construtor (opcional)
+    public NomeDaClasse(tipo parametro) {
+        this.nomeAtributo = parametro;
+    }
+
+    // Métodos (comportamentos)
+    public void metodo() {
+        // Código do método
+    }
+}
+
+```
+
+## Exemplo Prático
+
+ Aqui está um exemplo de uma classe chamada Carro: 
+```
+// Definição da classe Carro
+public class Carro {
+    // Atributos
+    String modelo;
+    int ano;
+
+    // Construtor
+    public Carro(String modelo, int ano) {
+        this.modelo = modelo;
+        this.ano = ano;
+    }
+
+    // Método para exibir detalhes do carro
+    public void exibirDetalhes() {
+        System.out.println("Modelo: " + modelo + ", Ano: " + ano);
+    }
+}
+
+```
+
+## Criando Objetos a Partir da Classe
+Agora, podemos criar objetos dessa classe em outra classe principal:
+```
+public class Main {
+    public static void main(String[] args) {
+        // Criando um objeto da classe Carro
+        Carro meuCarro = new Carro("Honda Civic", 2023);
+
+        // Chamando o método da classe
+        meuCarro.exibirDetalhes(); // Saída: Modelo: Honda Civic, Ano: 2023
+    }
+}
+
+```
+
+
+# Objeto
+é uma instância/ criação dessas classes

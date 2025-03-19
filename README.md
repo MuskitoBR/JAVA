@@ -24,3 +24,88 @@ Entrevista Java JR <br>
 ✅ O que é SOLID e por que é importante? <br>
 ✅ O que são testes unitários e como o Mockito ajuda nisso? <br>
 ✅ Como funciona o Git e quais são os comandos básicos? <br>
+
+
+---------------------------------------------------------------------------------------------<br>
+
+https://www.youtube.com/watch?v=C8aKTAhpA7w <br>
+https://www.youtube.com/watch?v=nODe5lFcGpg <br>
+
+# ROADMAP
+
+## Fundamentos
+
+### POO
+
+- Classes
+- Objetos
+- Interfaces
+- Herança
+- Polimorfismo
+
+### Sintaxe Base (Tipos Primitivos)
+- DataTypes
+- Variáveis
+- Listas
+- Arrays
+- Condicionais
+- Loops
+- Funções
+- Exceções
+- Build
+- Run
+- Criar Classes
+- Instanciar Objetos
+- Heranças
+- Sobrecarga
+- Packages
+- Visibilidade
+
+---
+
+## Indo Além
+
+### Essência
+- JVM
+- JDK
+- Gerenciamento de Memória
+- Coleta de Lixo
+
+### Sintaxe Avançada
+- Casting
+- Generics
+- Streams
+- Collections
+- Map
+- HashMaps
+- Threads
+- Completable Future  
+
+### Networking
+- HttpURLConnection
+- HttpClient
+- JDBC
+- Drivers
+
+---
+
+## Ferramentas
+
+### Build tools
+- Gradle
+- Maven
+  - Adicionar Dependências
+  - Realizar Build
+  - Gerar pacote (.jar)
+
+### Web Frameworks
+- Quarkus (gigantes)
+- Spring (gigantes)
+
+### Testes
+- JUnit
+- Mockito
+- Selenium
+- TestNG
+- DB Unit
+

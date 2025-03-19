@@ -18,34 +18,34 @@ torno de **objetos**, que representam entidades do mundo real. No Java, POO é u
  
 ## Exemplo Prático<br>
 Aqui está um exemplo simples de uma classe em Java que segue os princípios da POO:<br>
+
 ```
-// Definição da classe
-class Carro {
-    // Atributos
-    private String modelo;
-    private int ano;
 
-    // Construtor
-    public Carro(String modelo, int ano) {
-        this.modelo = modelo;
-        this.ano = ano;
-    }
-
-    // Método para exibir informações
-    public void mostrarDetalhes() {
-        System.out.println("Modelo: " + modelo + ", Ano: " + ano);
-    }
-}
-
-// Classe principal
-public class Main {
-    public static void main(String[] args) {
-        // Criando um objeto da classe Carro
-        Carro meuCarro = new Carro("Toyota Corolla", 2022);
-        meuCarro.mostrarDetalhes(); // Saída: Modelo: Toyota Corolla, Ano: 2022
-    }
-}
-
-
+      // Definição da classe
+      class Carro {
+          // Atributos
+          private String modelo;
+          private int ano;
+      
+          // Construtor
+          public Carro(String modelo, int ano) {
+              this.modelo = modelo;
+              this.ano = ano;
+          }
+      
+          // Método para exibir informações
+          public void mostrarDetalhes() {
+              System.out.println("Modelo: " + modelo + ", Ano: " + ano);
+          }
+      }
+      
+      // Classe principal
+      public class Main {
+          public static void main(String[] args) {
+              // Criando um objeto da classe Carro
+              Carro meuCarro = new Carro("Toyota Corolla", 2022);
+              meuCarro.mostrarDetalhes(); // Saída: Modelo: Toyota Corolla, Ano: 2022
+          }
+      }
 
 ```

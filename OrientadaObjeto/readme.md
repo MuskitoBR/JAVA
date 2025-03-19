@@ -49,3 +49,14 @@ Aqui está um exemplo simples de uma classe em Java que segue os princípios da 
       }
 
 ```
+
+<br>
+<br>
+
+# Explicação do Código
+
+ 1. Criamos a classe Carro com atributos privados (modelo e ano).<br>
+ 2. Utilizamos um construtor para inicializar esses atributos.<br>
+ 3. Criamos um método para exibir os detalhes do carro.<br>
+ 4. No método main, instanciamos um objeto Carro e chamamos o método mostrarDetalhes().<br>
+ <br>

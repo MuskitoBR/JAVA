@@ -78,6 +78,10 @@ Aqui está um exemplo simples de uma classe em Java que segue os princípios da 
 
 
 # Classes
+
+### O que é uma classe?
+
+Em seus aplicativos, você frequentemente encontrará muitos objetos individuais, todos do mesmo tipo. Pode haver milhares de outras bicicletas existentes, todas da mesma marca e modelo. Cada bicicleta foi construída a partir do mesmo conjunto de projetos e, portanto, contém os mesmos componentes. Em termos orientados a objetos, dizemos que sua bicicleta é uma instância da classe de objetos conhecida como bicicletas. Uma classe é o projeto a partir do qual os objetos individuais são criados.
  Uma classe em Java é um modelo (ou molde) para criar objetos. Ela define 
  atributos (características) e métodos (comportamentos) que os objetos criados a partir dela terão.<br>
 

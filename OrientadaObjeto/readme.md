@@ -1,3 +1,17 @@
+# O que é um objeto?
+
+Um objeto é um pacote de software de estado e comportamento relacionados. <br>
+Esta seção explica como o estado e o comportamento são representados dentro de um objeto,<br>
+introduz o conceito de encapsulamento de dados e explica os benefícios de projetar seu software dessa maneira.<br>
+<br>
+Objetos compartilham duas características: todos eles têm estado e comportamento. <br>
+Cachorros têm estado (nome, cor, raça, fome) e comportamento (latindo, buscando, abanando o rabo). <br>
+Bicicletas também têm estado (marcha atual, cadência atual do pedal, velocidade atual) e comportamento <br>
+(trocando marcha, trocando cadência do pedal, aplicando freios). <br>
+Identificar o estado e o comportamento de objetos do mundo real é uma ótima maneira de começar a pensar em termos de programação orientada a objetos.
+
+Reserve um minuto agora mesmo para observar os objetos do mundo real que estão em sua área imediata. Para cada objeto que você vê, faça a si mesmo duas perguntas: "Em quais estados possíveis esse objeto pode estar?" e "Qual comportamento possível esse objeto pode executar?". Certifique-se de anotar suas observações. Ao fazer isso, você notará que os objetos do mundo real variam em complexidade; sua luminária de mesa pode ter apenas dois estados possíveis (ligado e desligado) e dois comportamentos possíveis (ligar, desligar), mas seu rádio de mesa pode ter estados adicionais (ligado, desligado, volume atual, estação atual) e comportamento (ligar, desligar, aumentar volume, diminuir volume, procurar, escanear e sintonizar). Você também pode notar que alguns objetos, por sua vez, também conterão outros objetos. Essas observações do mundo real são um ponto de partida para entender o mundo da programação orientada a objetos.
+
 # POO
 <br>
 
